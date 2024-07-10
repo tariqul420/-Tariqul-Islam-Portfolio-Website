@@ -6,9 +6,9 @@ This is a blog html template made by codewithsadee
 
 #---------- HEADER ----------#
 
-alt = Wren logo
+alt = T logo
 
-alt = Wren logo
+alt = T logo
 
 aria-label = close menu
 <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
@@ -32,7 +32,7 @@ Account Setting
 Sign Out
 
 Copyright 2022 © Wren - Personal Blog Template.
-Developed by codewithsadee
+Developed by Tariqul Islam
 
 Subscribe
 
@@ -54,7 +54,7 @@ placeholder = Type your email address
 Subscribe
 <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
 
-alt = Wren Clark
+alt = Tariqul Islam
 
 alt = shape
 

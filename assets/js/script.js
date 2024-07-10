@@ -1,6 +1,4 @@
-'use strict';
-
-
+"use strict";
 
 /**
  * Add event listener on multiple elements
@@ -10,9 +8,7 @@ const addEventOnElements = function (elements, eventType, callback) {
   for (let i = 0, len = elements.length; i < len; i++) {
     elements[i].addEventListener(eventType, callback);
   }
-}
-
-
+};
 
 /**
  * MOBILE NAVBAR TOGGLER
@@ -24,11 +20,9 @@ const navTogglers = document.querySelectorAll("[data-nav-toggler]");
 const toggleNav = () => {
   navbar.classList.toggle("active");
   document.body.classList.toggle("nav-active");
-}
+};
 
 addEventOnElements(navTogglers, "click", toggleNav);
-
-
 
 /**
  * HEADER ANIMATION
@@ -48,8 +42,6 @@ window.addEventListener("scroll", () => {
   }
 });
 
-
-
 /**
  * SLIDER
  */
@@ -66,7 +58,7 @@ let currentSlidePos = 0;
 
 const moveSliderItem = function () {
   sliderContainer.style.transform = `translateX(-${sliderContainer.children[currentSlidePos].offsetLeft}px)`;
-}
+};
 
 /**
  * NEXT SLIDE
@@ -82,7 +74,7 @@ const slideNext = function () {
   }
 
   moveSliderItem();
-}
+};
 
 sliderNextBtn.addEventListener("click", slideNext);
 
@@ -98,7 +90,7 @@ const slidePrev = function () {
   }
 
   moveSliderItem();
-}
+};
 
 sliderPrevBtn.addEventListener("click", slidePrev);
 

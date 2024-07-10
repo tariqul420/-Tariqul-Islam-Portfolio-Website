@@ -244,8 +244,11 @@ body.nav-active {
   color: var(--text-columbia-blue);
   line-height: var(--lineHeight-1);
 }
-.span{
-  font-family: "Playwrite HR", cursive;}
+
+.span {
+  font-family: "Playwrite HR", cursive;
+}
+
 .headline-1 {
   font-size: var(--fontSize-1);
   color: var(--text-alice-blue);
